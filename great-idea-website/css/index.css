@@ -55,6 +55,7 @@ table {
 html, body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
+	background: #f7f5f5;
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,3 +65,57 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container {
+	/* TB LR */
+	width: 880px;
+	margin: 0 auto;
+	
+}
+
+
+/* header*/
+header nav {
+ display: flex;
+ flex-direction: row;
+ width: 691px;
+ vertical-align: top;
+ margin-top:35px;
+}
+header nav a {
+	display: flex;
+	flex-direction: row;
+	margin-right: 65px;
+	font-size:14px;
+	color: red;
+	text-decoration: none;
+}
+header nav a:hover {
+	text-decoration: underline;
+}
+header nav a:first-child {
+	margin-left: 0;
+	color: black
+}
+header nav a:last-child {
+	color: black;
+	margin-right: 0;
+}
+header .logo {
+	display: flex;
+	position: relative;
+	right: 18px;
+	bottom: 30px;
+	margin-bottom: 0px;
+	padding-left: 200px;
+	float: right;
+}
+/*CTA*/
+
+
+
+/*@media Quiries*/
+@media  (max-width: 600px) {
+	body {
+	  background-color: lightblue;
+	}
+  }

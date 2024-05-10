@@ -142,7 +142,7 @@ header .logo {
 	top: -350px;
 }
 .main-content {
-	border: 1px dashed black;
+	
 	border-top: 1px solid black;
 	margin-top: 340px;
 	padding-top: 0px;
@@ -150,8 +150,64 @@ header .logo {
 	top: -240px;
 
 }
+.main-content .top-content {
+	padding: 0 10px;
+	float: right;
+}
 
+.main-content .top-content .text-content {
+	width: 410px;
+	flex-direction: row;
+	margin-right: 34px;
+	float: left;
+}
+.main-content .top-content .text-content:last-child {
+	margin-right: 0px;
+}
+.main-content .bottom-content {
+	padding: 0 10px;
+	flex-direction:row;
+}
 
+.main-content .bottom-content .text-content {
+	width: 250px;
+	flex-direction: row;
+	margin-right: 34px;
+	float: left;
+	justify-content: center;
+	padding-top: 39px;
+}
+
+.main-content .bottom-content .text-content:last-child {
+	margin-right: 0;
+}
+
+.contact {
+	border-top: 1px solid black;
+	margin-top: 10px;
+	padding: 39px 0px 0px;
+	position: relative;
+	bottom: 20px;
+}
+
+.contact h4 {
+	position: relative;
+	top: -130px;
+}
+.contact p {
+	margin: 6px;
+	position: relative;
+	bottom: 135px;
+	top: -130px;
+}
+
+footer {
+	margin: 20px 0;
+	text-align: center;
+	font-size: 14px;
+	position: relative;
+	top: -120px;
+}
 /*@media Quiries*/
 @media  (max-width: 600px) {
 	body {

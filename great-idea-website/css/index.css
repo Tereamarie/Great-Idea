@@ -110,7 +110,46 @@ header .logo {
 	float: right;
 }
 /*CTA*/
+.cta .cta-text {
+	
+	flex-direction: row;
+	justify-content: space-between;
+	font-size: 77px;
+	margin-top: 120px;
+	text-align: center; 
+	padding: 0px 75px;
+	padding-right: 560px;
+	
 
+}
+.cta .cta-text button {
+	border: 1px solid rgb(29, 27, 27);
+    background: grey;
+	vertical-align: top;
+	margin-top: 6px;
+	padding: 8px 44px;
+	cursor: pointer;
+}
+.cta .cta-text button:hover {
+	background: blueviolet;
+	color: whitesmoke
+}
+.cta img {
+	
+	display: flex;
+	float: right;
+	position: relative;
+	top: -350px;
+}
+.main-content {
+	border: 1px dashed black;
+	border-top: 1px solid black;
+	margin-top: 340px;
+	padding-top: 0px;
+	position: relative;
+	top: -240px;
+
+}
 
 
 /*@media Quiries*/
